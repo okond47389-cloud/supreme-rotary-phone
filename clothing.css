@@ -195,6 +195,7 @@
  }
 /* l */
  @media (max-width:768px) {
+  
    body >  header{
        background-color: rgb(117, 89, 53);
        min-height: 20px;
@@ -271,7 +272,7 @@
    }
 
    section >.set2 >.im1 >img{
-    width: 12em;
+    width: 10em;
    }
 
      section >.set2 >.im1  >h2{
@@ -279,7 +280,7 @@
    }
 
    section >.set2 >.im2 >img{
-    width: 12em;
+    width: 10em;
    }
 
    section >.set2 >.im2  >h2{
@@ -295,7 +296,7 @@
    }
 
    section >.set2 >.im4 >img{
-    width: 12em;
+    width: 10em;
    }
 
      section >.set2 >.im4  >h2{
@@ -312,7 +313,7 @@
    section >.dm .set3 >.image >img{
     margin-left: 50px;
     width: 7em;
-    height: 12em;
+    height: 10em;
    }
 
     section >.dm >.set3 >.letter{
@@ -329,12 +330,12 @@
    }
 
    section >.dm >.set3 >.letter >p{
-    font-size: 7px;
+    font-size: 5px;
     width:150%; 
    }
 
    section >.dm >.set3 >.letter >h4{
-    font-size: 6.5px;
+    font-size: 6px;
    }
 
   section >.dm >.set3 >.letter > button{
@@ -739,6 +740,11 @@ footer >.foot1 >h1{
     font-size: 5.5px;
   }
 } 
+@media (max-width:375) {
+  body >header{
+    background-color:black;
+  }
+}
 /* s */
 @media (max-width:320px) { 
   body >header{
