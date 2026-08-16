@@ -288,7 +288,7 @@
    }
 
    section >.set2 >.im3 >img{
-    width: 12em;
+    width: 10em;
    }
 
      section >.set2 >.im3  >h2{
@@ -740,9 +740,232 @@ footer >.foot1 >h1{
     font-size: 5.5px;
   }
 } 
-@media (max-width:375) {
+@media (max-width:375px) {
   body >header{
     background-color:black;
+  }
+
+  header >.parent >.logo >.h1{
+    font-size: 5px;
+  }
+  header >.parent >.logo >.h3{
+    font-size: 2px;
+  }
+  header >.parent >.nav >nav >a{
+    font-size: 3px;
+  }
+
+  header >.child >h1{
+    font-size: 5px;
+  }
+  header >.child >h2{
+    font-size: 5.5px;
+  }
+  header >.child >p{
+    font-size: 3px;
+  }
+  header >.child >.buttons >.btn1 >button{
+    height: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+  }
+  header >.child >.buttons >.btn1 >button >h1{
+    font-size: 4px;
+  }
+  header >.child >.buttons >.btn2 >button{
+    width: 40px;
+    height: 8px;
+  } 
+  header >.child >.buttons >.btn2 >button >h1{
+    font-size: 3px;
+  }
+
+  main >.set1 >.img1 >img{
+    width: 3.5em;
+  }
+  main >.set1 >.img2 >img{
+    width: 5em;
+  }
+  main >.set1 >.img3 >img{
+    width: 3.5em;
+  }
+    main >.set1 >.img4 >img{
+    width: 4em;
+    height: 7em;
+  }
+
+  section >.fonts >h1{
+    font-size: 5px;
+  }
+  section >.fonts >h2{
+    font-size: 5.5px;
+  }
+  section >.set2 >.im1 >img{
+    width: 7em;
+  }
+  section >.set2 >.im1 >h2{
+    font-size: 5px;
+  }
+  section >.set2 >.im2 >img{
+    width: 7em;
+  }
+  section >.set2 >.im2 >h2{
+    font-size: 5px;
+  } 
+  section >.set2 >.im3 >img{
+    width: 7em;
+  }
+  section >.set2 >.im3 >h2{
+    font-size: 5px;
+  } 
+  section >.set2 >.im4 >img{
+    width: 7em;
+  }
+  section >.set2 >.im4 >h2{
+    font-size: 5px;
+  }
+  section >.dm >.set3 >.image >img{
+    width: 4em;
+  }
+  section >.dm >.set3 >.letter >h3{
+    font-size: 3px;
+  }
+  section >.dm >.set3 >.letter >h1{
+    font-size: 4px;
+  } 
+  section >.dm >.set3 >.letter >p{
+    font-size: 2px;
+    width: 50px;
+  } 
+  section >.dm >.set3 >.letter >h4{
+    font-size: 3px;
+  }
+  section >.dm >.set3 >.letter >button{
+    width: 20px;
+    height: 5px;
+  }
+  section >.dm >.set3 >.letter >button >h1{
+    font-size: 3px;
+  }
+ .section1 >.test >h3{
+  font-size: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+  .section1 >.test >h1{
+    font-size: 5px;
+  }
+
+  .section2 >.item1{
+    margin-right: 20px;
+  }
+  .section2 >.item1  >img{
+    width: 15px;
+  }
+  .section2 >.item1 >p{
+    font-size: 3px;
+    width: 90%;
+  }
+  .section2 >.item1 >#profile >img{
+    width: 7px;
+    height: 7px;
+  }
+  .section2 >.item1 >#profile >p{
+    font-size: 2px;
+  }
+  .section2 >.item2{
+    margin-right: 20px;
+  }
+  .section2 >.item2  >img{
+    width: 15px;
+  }
+  .section2 >.item2 >p{
+    font-size: 3px;
+    width: 90%;
+  }
+  .section2 >.item2 >#profile2 >img{
+    width: 7px;
+    height: 7px;
+  }
+  .section2 >.item2 >#profile2 >p{
+    font-size: 2px;
+  }
+
+  .section2 >.item3{
+    margin-right: 20px;
+  }
+  .section2 >.item3  >img{
+    width: 15px;
+  }
+  .section2 >.item3 >p{
+    font-size: 3px;
+    width: 90%;
+  }
+  .section2 >.item3 >#profile3 >img{
+    width: 7px;
+    height: 7px;
+  }
+  .section2 >.item3 >#profile3 >p{
+    font-size: 2px;
+  }
+
+  .section2 >.item4{
+    margin-right: 20px;
+  }
+  .section2 >.item4  >img{
+    width: 15px;
+  }
+  .section2 >.item4 >p{
+    font-size: 3px;
+    width: 90%;
+  }
+  .section2 >.item4 >#profile4 >img{
+    width: 7px;
+    height: 7px;
+  }
+  .section2 >.item4 >#profile4 >p{
+    font-size: 2px;
+  }
+
+  footer >.foot1 >h1{
+    font-size: 4px;
+  }
+  footer >.foot1 >h3{
+    font-size: 3.5px;
+  }
+  footer >.foot1 >p{
+    font-size: 3px;
+    width: 50%;
+  }
+  footer >.foot1 >.icons >.pic1 >img{
+    width: 9px;
+  }
+  footer >.foot1 >.icons >.pic3 >img{
+    width: 9px;
+  }
+  footer >.foot2 >h1{
+    font-size: 4px;
+  }
+  footer >.foot2 >P{
+    font-size: 3px;
+    margin-top: 7px;
+  }
+  footer >.foot3 >h1{
+    font-size: 4px;
+  }
+  footer >.foot3 >P{
+    font-size: 3px;
+    margin-top: 7px;
+  }
+  footer >.foot4 >h1{
+    font-size: 4px;
+  }
+  footer >.foot4 >P{
+    font-size: 3px;
+    margin-top: 7px;
   }
 }
 /* s */
