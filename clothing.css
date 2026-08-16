@@ -1,0 +1,1633 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* xl */
+@media (max-width:1024px) {
+    body > header{
+        background-color: rgb(21, 18, 14);
+        min-height: 30vh;
+    }
+    header > .parent{
+        margin-left: 20px;
+    }
+   .parent > .logo > h1{
+        font-size: 20px;
+    }
+    .parent > .logo > h3{
+        font-size: 6px;
+    }
+     .parent >  .nav > nav > a{
+        font-size: 9px;
+    }
+
+     header > .child > h1{
+        font-size: 17px;
+     }
+
+     header > .child > h2{
+        font-size: 16px;
+     }
+     header > .child > p{
+        font-size: 10px;
+        width: 15%;
+     }
+       .child > .buttons > .btn1 > button{
+        display: flex;
+       }
+     .child > .buttons .btn1 > button{
+        height: 18px;
+     }
+     .child > .buttons > .btn1 > button > h1{
+        font-size: 11px;
+     }
+      .child > .buttons > .btn2 > button{
+        height: 18px;
+      }
+
+      main > .set1 > .img1 > img{
+         width: 10em;
+      }
+
+      main > .set1 > .img2 img{
+        width: 15em;
+      } 
+
+      main > .set1 > .img3 > img{
+        width: 10em;
+      } 
+
+      main > .set1 > .img4 > img{
+        width: 15em;
+        height: 18em;
+      } 
+      section > .fonts > h1 {
+         font-size: 14px;
+
+      }
+
+
+       body > section{
+        margin-right: 25px;
+       }
+
+      section > .fonts > h2{
+        font-size: 12px;
+      }
+
+      section > .set2  > .im1 > img{
+        width: 18em;
+      }
+
+      section > .set2 > .im2 > img{
+        width: 18em;
+      }
+
+      section > .set2 > .im3 > img{
+        width: 18em;
+      }
+
+      section > .set2 > .im4 > img{
+        width: 18em;
+      }
+       
+     section >.set3{
+      width: 370px;
+     }
+
+      section > .set3 > .image > img{
+        width: 12em;
+        height: 170px;
+      }
+
+      section > .set3{
+        height: 170px;
+      }
+
+     section > .set3 > .letter{
+        margin-right: 70px;
+     }
+
+      section > .set3 .letter > h3{
+        font-size: 12px;
+      }
+
+      section > .set3 > .letter  h1{
+        font-size: 13px;
+      }
+
+      section > .set3 > .letter > p{
+        font-size: 7px;
+        width: 90%;
+      }
+
+      section > .set3 > .letter > button{
+        height: 15px;
+        margin-bottom: 30px;
+      }
+
+      section > .set3 > .letter > button > h1{
+        font-size: 12px;
+      }
+
+      .section1{
+        margin-left: 50px;
+      }
+
+      .section1 > .test > h3{
+        font-size: 12px;
+      }
+      .section1 > .test > h1{
+        font-size: 14px;
+      }
+
+      .section2{
+        margin-left: 75px;
+        margin-bottom: 15px;
+      }
+
+      footer > .foot1{
+        margin-left: 20px;
+      }
+
+      footer > .foot1 > h1{
+        font-size: 14px;
+      }
+
+      footer > .foot1 >h3{
+        font-size: 12px;
+      }
+
+      footer > .foot1 > p{
+        font-size: 12px;
+        width: 70%;
+      }
+
+      footer > .foot2 {
+        margin-right: 20px;
+      }
+      footer > .foot2 > h1{
+        font-size: 14.5px;
+      }
+
+      footer > .foot2 > p{
+        margin-top: 5px;
+        font-size: 12px;
+      }
+
+      footer > .foot3 > h1{
+        font-size: 14px;
+      } 
+
+      footer > .foot3 > p{
+        font-size: 12px;
+      } 
+
+      footer > .foot4 > h1{
+        font-size: 14px;
+      }
+
+      footer > .foot4 .p{
+        font-size: 12px;
+      }
+ }
+/* l */
+ @media (max-width:768px) {
+   body >  header{
+       background-color: rgb(117, 89, 53);
+       min-height: 20px;
+    }
+
+    header > .parent > .logo > h1{
+         font-size: 14px;
+    }
+
+     header > .parent > .logo > h3{
+        font-size: 6.5px;
+    }
+
+    header > .parent > .nav > nav > a{
+        font-size: 6px;
+        margin-right: 20px;
+    }
+
+    
+   header > .child > h1{
+    font-size: 15px;
+
+  }
+
+  header > .child > h2{
+    font-size: 14px;
+  }
+
+  header > .child > p{
+      font-size: 7px;
+  }
+
+  .buttons  .btn1 > button{
+    width: 70px;
+    margin-bottom: 20px;
+  }
+
+  .child >  .buttons > .btn1 > button > h1{
+    font-size: 8px;
+  }
+
+  .child > .buttons > .btn2 > button > h1{
+    font-size: 8px;
+  }
+
+  
+  .child > .buttons > .btn2 > button {
+    margin-left: 20px;
+  }
+
+   main > .set1 > .img1 > img{
+    width: 7em;
+   }
+
+   main > .set1 > .img2 > img{
+    width: 10em;
+   }
+
+   main >.set1 >.img3 > img{
+    width: 7em;
+   }
+
+   main >.set1 >.img4 >img{
+    width: 9em;
+    height: 12em;
+   }
+
+   section >.fonts >h1{
+    font-size: 10px;
+   }
+
+   section >.fonts >h2{
+     font-size: 12px;
+   }
+
+   section >.set2 >.im1 >img{
+    width: 12em;
+   }
+
+     section >.set2 >.im1  >h2{
+    font-size: 10px;
+   }
+
+   section >.set2 >.im2 >img{
+    width: 12em;
+   }
+
+   section >.set2 >.im2  >h2{
+    font-size: 10px;
+   }
+
+   section >.set2 >.im3 >img{
+    width: 12em;
+   }
+
+     section >.set2 >.im3  >h2{
+    font-size: 10px;
+   }
+
+   section >.set2 >.im4 >img{
+    width: 12em;
+   }
+
+     section >.set2 >.im4  >h2{
+    font-size: 10px;
+   }
+
+   section >.dm >.set3{
+
+   margin-bottom: 10px;
+    width: 30em;
+    height: 12em;
+   }
+
+   section >.dm .set3 >.image >img{
+    margin-left: 50px;
+    width: 7em;
+    height: 12em;
+   }
+
+    section >.dm >.set3 >.letter{
+        margin-right: 100px;
+    }
+
+   section >.dm >.set3 >.letter >h3{
+    font-size: 7px;
+   }
+
+   section >.dm >.set3 >.letter >h1{
+      font-size: 8px;
+          margin-top: 5px;
+   }
+
+   section >.dm >.set3 >.letter >p{
+    font-size: 7px;
+    width:150%; 
+   }
+
+   section >.dm >.set3 >.letter >h4{
+    font-size: 6.5px;
+   }
+
+  section >.dm >.set3 >.letter > button{
+    width: 7em;
+    height: 10px;
+  }
+
+  section >.dm >.set3 >.letter >button >h1{
+    font-size: 7px;
+  }
+
+  .section1 >.test >h3{
+    font-size: 9px;
+  }
+
+  .section1 >.test >h1{
+    font-size: 10px;
+  }
+
+  section >.section2{
+    margin-right: 50px;
+  }
+
+   .section1 >.item1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+  .section2 >.item1 >img{
+    width: 45px;
+  }
+  .section2 >.item1 >p{
+    font-size: 9px;
+    width: 80%;
+  }
+
+  .section2 >.item1 >#profile >img{
+    margin-top: 7px;
+    width: 10px;
+    height: 20px;
+  }
+
+  .section2 >.item2 >img{
+   width: 45px;
+  }
+
+  .section2 >.item2 >p{
+    font-size: 9px;
+    width: 80%;
+  }
+
+  .section2 >.item2 >#profile2 >img{
+        margin-top: 7px;
+    width: 10px;
+    height: 20px;
+  }
+
+
+    .section2 >.item3 >img{
+   width: 45px;
+  }
+
+  .section2 >.item3 >p{
+    font-size: 9px;
+    width: 80%;
+  }
+
+  .section2 >.item3 >#profile3 >img{
+        margin-top: 7px;
+    width: 10px;
+    height: 20px;
+  }
+
+      .section2 >.item4 >img{
+   width: 45px;
+  }
+
+  .section2 >.item4 >p{
+    font-size: 9px;
+    width: 80%;
+  }
+
+  .section2 >.item4 >#profile4 >img{
+    margin-top: 7px;
+    width: 10px;
+    height: 20px;
+  }
+
+    footer{
+      height: 122.5px;
+    }
+    
+  footer >.foot1 >h1{
+     font-size: 9px;
+  }
+
+  footer >.foot1 >h3{
+    font-size: 10px;
+  }
+  
+  footer >.foot1 >p{
+    font-size: 7px;
+  }
+
+  footer >.foot1 >.icons >.pic1 >img{
+    width: 15px;
+  }
+
+  footer .foot1 >.icons >.pic3 >img{
+    width: 15px;
+  }
+
+  footer >.foot2 >h1{
+    font-size: 10px;
+  }
+
+  footer >.foot2 >p{
+    font-size: 8px;
+  }
+
+  footer >.foot3 >h1{
+    font-size: 10px;
+  }
+
+  footer >.foot3 >p{
+    font-size: 8px;
+  }
+
+  footer >.foot4 >.h1{
+    font-size: 10px;
+  }
+
+  footer >.foot4 >p{
+    font-size: 8px;
+  }
+ }
+ /* m */
+@media (max-width:425px) {
+body >header {
+  background-color:rgb(123, 105, 84) ;
+  min-height: 10vh;
+}
+header >.parent >.logo >h1{
+  font-size: 6px;
+  margin-left: 3px;
+}
+
+header >.parent >.logo >h3{
+  font-size: 3px;
+}
+
+header >.parent >.nav >nav >a{
+  font-size: 4px;
+}
+
+header >.child >h1{
+  font-size: 6px;
+}
+
+header >.child >h2{
+  font-size: 7px;
+}
+
+header >.child >p{
+  font-size: 5px;
+}
+
+header >.child >.buttons >.btn1 >button{
+  width: 40px;
+  height: 10px;
+}
+
+header >.child >.buttons >.btn1 >button >h1{
+  font-size: 4.5px;
+}
+
+header >.child >.buttons >.btn1 >button >h1 >img{
+  width: 7px;
+}
+
+header >.child >.buttons >.btn2 >button{
+  width: 60px; 
+  height: 10px;
+}
+       
+header >.child >.buttons >.btn2 >button >h1{
+  font-size: 4.5px;
+}
+
+main >.set1 >.img1 >img{
+ width: 5em;
+}
+
+main >.set1 >.img2 >img{
+  width: 7em;
+}
+
+main >.set1 >.img3 >img{
+  width: 5em;
+}
+
+main >.set1 >.img4 >img{
+ width: 7em;
+ height: 8em;
+}
+
+section >.fonts >h1{
+ font-size: 6px;
+}
+section >.fonts >h2{
+  font-size: 7px;
+}
+
+section >.set2 >.im1 >img{
+ width: 9em;
+}
+
+section >.set2 >.im1 >h2{
+  font-size: 6px;
+}
+
+section >.set2 >.im2 >img{
+  width: 9em;
+}
+
+section >.set2 >.im2 >h2{
+  font-size: 6px;
+}
+
+section >.set2 >.im3 >img{
+  width: 9em;
+}
+      
+section >.set2 >.im3 >h2{
+  font-size: 6px;
+}
+section >.set2 >.im4 >img{
+  width: 9em;
+}
+
+section >.set2 >.im4 >h2{
+  font-size: 6px;
+}
+
+section >.dm >.set3{
+  margin-left: 7em;
+  width: 20em;
+  height: 8em;
+}
+
+section >.dm >.set3 >.image >img{
+  width: 4.5em;
+  height: 7em;
+  margin-left: 90px;
+  margin-right: -50px;
+}
+
+section >.dm >.set3 >.letter {
+ margin-bottom: 20px;
+}
+
+section >.dm >.set3 >.letter >h3{
+   font-size: 5px;
+}
+
+section >.dm >.set3 >.letter >h1{
+  font-size: 6px;
+}
+
+section >.dm >.set3 >.letter >p{
+  font-size: 3px;
+}
+
+section >.dm >.set3 >.letter >.h4{
+  font-size: 4px;
+}
+
+section >.dm >.set3 >.letter >button{
+  height: 6px;
+}
+
+section >.dm >.set3 >.letter >button >h1{
+  font-size: 4px;
+}
+
+.section1 .test >h3{
+    font-size: 6px;
+}
+
+.section1 >.test >h1{
+  font-size: 7.5px;
+}
+
+.section2{
+  margin-right: 10em;
+}
+
+.section2 >.item1 >img{
+  width: 3em;
+  height: 2em;
+}
+
+.section2 >.item1 >p{
+  font-size: 6px;
+}
+
+.section2 >.item1 >#profile >p{
+  font-size: 4.5px;
+}
+
+.section2{
+  row-gap: 5100px;
+}
+
+.section2 >.item2 >img{
+  width: 3em;
+  height: 2em;
+}
+
+.section2 >.item2 >p{
+  font-size: 6px;
+  width: 90%;
+}
+
+.section2 >.item2 >#profile2 >p{
+  font-size: 4.5px;
+}
+
+.section2 >.item3 >img{
+  width: 3em;
+  height: 2em;
+}
+
+.section2 >.item3 >p{
+  font-size: 6px;
+}
+
+.section2 >.item3 >#profile3 >p{
+  font-size: 4.5px;
+}
+
+.section2 >.item4 >img{
+  height: 2em;
+  width: 3em;
+}
+
+.section2 >.item4 >p{
+  font-size: 6px;
+}
+
+.section2 >.item4 >#profile4 >p{
+  font-size: 4.5px;
+}
+
+footer >.foot1 >h1{
+   font-size: 6px;
+}
+ footer >.foot1 >h3{
+  font-size: 7.5px;
+ }
+
+ footer >.foot1 >p{
+  width: 100%;
+ }
+
+ footer >.foot1 >.icons >.pic1 >img{
+  width: 12px;
+ }
+
+  footer >.foot1 >.icons >.pic3 >img{
+    width: 12px;
+  }
+
+
+  footer >.foot2 >h1{
+    font-size: 6px;
+  }
+
+  footer >.foot2 >p{
+    font-size: 5.5px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  footer >.foot3 >h1{
+    font-size: 6px;
+  }
+
+  footer >.foot3 >p{
+    margin-right: 10px;
+    font-size: 5.5px;
+    margin-top: 10px;
+  }
+
+  footer >.foot4 >h1{
+    font-size: 6px;
+  }
+
+  footer >.foot4 >p{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 5.5px;
+  }
+} 
+/* s */
+@media (max-width:320px) { 
+  body >header{
+       background-color: rgb(40, 34, 34);
+     min-height: 5vh;
+  } 
+
+  header >.parent >.logo >h1{
+    font-size: 4.5px;
+  }
+  header >.parent >.logo >h3{
+    font-size: 2px;
+  }
+  header >.parent >.nav >nav >a{
+    font-size: 3px;
+    margin-right: 3px;
+  }
+  
+  header >.child >h1{
+    font-size: 4px;
+  }
+  header >.child >h2{
+    font-size: 5px;
+    margin-bottom: -8px;
+  }
+  header >.child >p{
+    font-size: 3px;
+    margin-bottom: -15px;
+  }
+  header >.child >.buttons >.btn1 >button{
+    width: 30px;
+    height: 7px;
+  }
+  header >.child >.buttons >.btn1 >button >h1{
+    font-size: 3.5px;
+  }
+  header >.child >.buttons >.btn1 >button >h1 >img{
+    margin-bottom: -2px;
+    width: 6px;
+  }
+  header >.child >.buttons >.btn2 >button{
+    width: 40px;
+    height: 8px;
+  }  
+ header >.child >.buttons >.btn2 >button >h1{
+  font-size: 3px;
+ }
+
+ main >.set1 >.img1 >img{
+  width: 3em;
+  border-radius: 10px;
+ }
+ main >.set1 >.img2 >img{
+  width: 4em;
+  height: 5.5em;
+ }
+ main >.set1 >.img3 >img{
+  width: 3em;
+  border-radius: 10px;
+ }
+
+ main >.set1 >.img4 >img{
+  width: 4em;
+  height: 5.5em;
+  border-radius: 10px;
+ }
+
+ section >.fonts >h1{
+   font-size: 4px;
+ }
+ section >.fonts >h2{
+  font-size: 5px;
+ }
+ section >.set2{
+  margin-left: 10px;
+ }
+ section >.set2 >.im1 >img{
+  width: 6em;
+  height: 6em;
+ }
+ section >.set2 >.im2 >img{
+  width: 6em;
+  height: 6em;
+ }
+ section >.set2 >.im3 >img{
+  width: 6em;
+  height: 6em;
+ }
+ section >.set2 >.im4 >img{
+  width: 6em;
+  height: 6em;
+ }
+ section >.dm >.set3{
+  width: 15em;
+  height: 7em;
+ }
+ section >.dm >.set3 >.image >img{
+  width: 4em;
+  height:3em;
+
+ }
+ section >.dm >.set3 >.letter >h1{
+  font-size:4px;
+  width: 100%;
+  margin-bottom: 2px;
+ }
+ section >.dm >.set3 >.letter >h3{
+  font-size:2.5px;
+ }
+ section >.dm >.set3 >.letter >h4{
+  font-size: 2.5px;
+ }
+ section >.dm >.set3 >.letter >button{
+   width: 3em;
+ }
+ section >.dm >.set3 >.letter >button >h1{
+  font-size: 3px;
+ }
+
+ .section1 >.test >h3{
+  font-size: 4px;
+ }
+ .section1 >.test >h1{
+  font-size: 5px;
+ }
+
+ .section2  >.item1{
+  margin-left: -50px;
+ }
+ .section2 >.item1 >img{
+  width: 3em;
+ }
+ .section2 >.item1 >p{
+  font-size: 4px;
+  width: 100%;
+ }
+ .section2 >.item1 >#profile >img{
+  height:14px;
+ }
+ .section2 >.item1 >#profile >p{
+  font-size: 3px;
+  display: flex;
+  flex-direction: row;
+ }
+ .section2  >.item2{
+  margin-left: 20px;
+ }
+ .section2 >.item2 >img{
+  width: 3em;
+ }
+ .section2 >.item2 >p{
+  font-size: 4px;
+  width: 70%;
+ }
+ .section2 >.item2 >#profile2 >img{
+  height:14px;
+ }
+ .section2 >.item2 >#profile2 >p{
+  font-size: 3px;
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .section2  >.item3{
+  margin-left: 20px;
+ }
+ .section2 >.item3 >img{
+  width: 3em;
+ }
+ .section2 >.item3 >p{
+  font-size: 4px;
+  width: 70%;
+ }
+ .section2 >.item3 >#profile3 >img{
+  height:14px;
+ }
+ .section2 >.item3 >#profile3 >p{
+  font-size: 3px;
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .section2  >.item4{
+  margin-left: 20px;
+ }
+ .section2 >.item4 >img{
+  width: 3em;
+ }
+ .section2 >.item4 >p{
+  font-size: 4px;
+  width: 80%;
+ }
+ .section2 >.item4 >#profile4 >img{
+  height:14px;
+ }
+ .section2 >.item4 >#profile4 >p{
+  font-size: 3px;
+  display: flex;
+  flex-direction: row;
+ }
+
+ footer >.foot1 >h1{
+  font-size: 4px;
+ }
+ footer >.foot1 >h3{
+  font-size: 5px;
+ }
+ footer >.foot1 >p{
+  font-size: 3px;
+ }
+ footer >.foot1 >.icons >.pic1 >img{
+  width: 9px;
+ }
+ footer >.foot1 >.icons >.pic3 >img{
+  width: 9px;
+ }
+ footer >.foot2 >h1{
+  font-size: 4px;
+ }
+ footer >.foot2 >p{
+  font-size: 2.5px;
+  margin-top: 8px;
+ }
+ footer >.foot3 >h1{
+  font-size: 4px;
+ }
+ footer >.foot3 >p{
+  font-size: 2.5px;
+  margin-top: 8px;
+ }
+ footer >.foot4 >h1{
+  font-size: 4px;
+ }
+ footer >.foot4 >p{
+  font-size: 2.5px;
+  margin-top: 8px;
+ }
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.818);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    min-height: 55vh;
+}
+.parent{
+    display: flex;
+}
+
+.logo{
+    margin-left: 10px;
+}
+
+.logo > h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+   font-family: "Merriweather", serif;
+}
+
+.logo > h3{
+    font-size: 10px;
+    font-weight: 600;
+    color: goldenrod;
+    margin-left: 5px;
+    margin-bottom: 10px;
+     font-family: "Merriweather", serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+}
+
+.nav > nav > a{
+  text-decoration: none;
+  font-size: 12px;
+  color: white;
+  margin-right: 25px;
+  margin-bottom: 10px;
+  font-weight:500;
+}
+
+
+.nav > nav >a:hover{
+    color: goldenrod;
+}
+
+.child{
+    margin-left: 40px;
+    margin-top: 8em;
+}
+
+.child > h1{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+   font-family: "Merriweather", serif;
+}
+
+.child > h2{
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.child > p{
+    color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      font-size: 12px;
+      width: 12%;
+      margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+  
+}
+
+.buttons > .btn1 >button {
+    margin-top: 20px;
+    font-size: 7px;
+    height: 25px;
+    background-color: goldenrod;
+    border: rgba(0, 0, 0, 0.788);
+}
+
+.buttons > .btn2 > button{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 5px;
+    height: 25px;
+    color: white;
+    background-color:black;
+    border-color: #ffffff;
+}
+
+.set1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+main{
+    background-color: transparent;
+}
+
+ .img1 > img{
+    width: 20em;
+    margin-left: 10px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+
+.img1:hover{
+    transform: translateY(-6px); 
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+
+.img2 > img{
+    width: 28em;
+    margin-left: 10px;
+    border-radius: 16px;
+    transition: 0.3s ease;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.img2:hover{
+    transform: translateY(-6px);
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
+
+.img3 > img{
+    width: 18em;
+    border-radius: 16px;
+    transition-duration: 5s;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-delay: 3s;  
+    margin-bottom: 20px;  
+}
+
+.img3:hover{
+    transform: translateY(-6px);
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+
+.img4 > img{
+     width: 28em;
+     height: 32em;
+    border-radius: 16px;
+    transition-duration: 4s;
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+    transition-delay: 4s;    
+} 
+
+.img4:hover{
+    transform: translateY(-6px);
+}
+
+section{
+    margin-top: 20px;
+}
+
+.fonts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .fonts > h1{
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    color: goldenrod;
+}
+
+.fonts > h2{
+    color: black;
+    font-size: 17px;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+}
+
+.set2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+
+
+.im1 > img{
+    width: 25em;
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: slideInLeft;
+    animation-duration: 2.5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+.im1 > h2{
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: unset;
+
+  animation-name: slideInright;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+
+@keyframes slideInright {
+    from{
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from{
+        transform: translateX(-300px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
+
+.im2 > img{
+    width: 25em;
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: slideInLeft;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+} 
+
+.im2 > h2{
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: slideInright;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;  
+}
+
+.im3 > img{
+    width: 25em;
+    border-radius: 20px;
+    padding: 10px;
+    animation-name: slideInLeft;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
+
+.im3 > h2{
+    font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: slideInright;
+  animation-duration: 4s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+
+.im4 > img{
+   width: 25em;
+   border-radius: 20px;
+   padding: 10px;
+    animation-name: slideInLeft;
+    animation-duration: 4.5s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal; 
+}
+
+.im4 > h2{
+  font-family: "Merriweather", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  animation-name: slideInright;
+  animation-duration: 4.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+}
+
+section >.dm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.set3{
+    background-color: rgb(0, 0, 0);
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+.image > img{
+    width: 15em;
+    margin-left: 10px;
+    height: 200px;
+}
+
+
+
+
+.letter{
+    margin-top: 25px;
+    margin-left: 10em;
+
+}
+
+.letter > h3{
+    font-size: 15px;
+    color: goldenrod;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+}
+
+.letter > h1{
+    color: #ffffff;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+
+}
+
+.letter > p{
+    color: #ffffff;
+    font-size: 12px;
+    width: 55%;
+       font-family: "Roboto", sans-serif;
+}
+
+.letter > h4{
+    color: goldenrod;
+    font-size: 12px;
+  
+}
+
+.letter > button{
+
+    font-size: 7px;
+    height: 25px;
+    background-color: goldenrod;
+    border: rgba(0, 0, 0, 0.788);  
+}
+
+
+.section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.test > h3{
+    font-size: 16px;
+    color: goldenrod;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+    margin-left: 5em;
+}
+
+
+.test > h1{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Merriweather", serif;
+}
+
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.item1 > img{
+    width: 50px;
+    height: 40px;
+}
+
+.item1 > p{
+  font-size: 12px;
+  font-weight: 700;
+  width: 55%;
+}
+
+#profile{
+    display: flex;
+}
+
+#profile > img{
+    width: 15px;
+    border-radius: 20px;
+} 
+
+#profile > p{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+
+
+.item2 > img{
+        width: 50px;
+    height: 40px;
+}
+
+.item2 >p{
+      font-size: 12px;
+  font-weight: 700;
+  width: 58%;
+}
+
+#profile2{
+    display: flex;
+}
+
+#profile2 > img{
+  width: 15px;
+   border-radius: 20px; 
+}
+#profile2 > p{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 600;  
+    margin-left: 5px;
+}
+
+
+.item3 > img{
+        width: 50px;
+    height: 40px;
+}
+
+.item3 > p{
+  font-size: 12px;
+  font-weight: 700;
+  width: 55%;
+}
+
+#profile3{
+    display: flex;
+}
+
+#profile3 > img{
+  width: 15px;
+  border-radius: 20px;     
+}
+
+
+#profile3 > p{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 600;  
+    margin-left: 5px;    
+}
+
+.item4 > img{
+    width: 50px;
+    height: 40px;   
+}
+
+.item4 > p{
+  font-size: 12px;
+  font-weight: 700;
+  width: 55%;
+}
+
+#profile4{
+    display: flex;
+}
+
+#profile4 > img{
+  width: 15px;
+  border-radius: 20px;    
+}
+
+#profile4 > p{
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 5px;   
+}
+
+footer{
+    display: flex;
+    background-color: black;
+}
+
+.foot1 > h1{
+   font-size: 25px;
+   font-weight: 600;
+   margin-top: 10px;
+   color: goldenrod;
+    font-family: "Merriweather", serif;   
+}
+
+.foot1 > h3{
+    font-size: 9px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Merriweather", serif;   
+}
+
+
+.foot1 > p{
+    margin-top: 25px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Merriweather", serif;  
+    width: 60%; 
+}
+
+.icons{
+    display: flex;
+    margin-top: 5px;
+}
+
+
+
+.pic1 > img{
+    width: 20px;
+    border-radius: 20px;
+    border: black;
+    margin-left: 5px;
+}
+
+
+.pic3 > img{
+    width: 20px;
+    border-radius: 20px;
+    margin-left: 8px;
+}
+
+.foot2{
+    margin-left: 25px;
+}
+
+.foot2 > h1{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.foot2 >p{
+   color: #ffffff;
+   font-size: 16px;
+   margin-top: 5px;
+}
+
+hr{
+    width:1px;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.foot3{
+    margin-left: 30px;
+}
+
+.foot3 > h1{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.foot3 > p{
+   color: #ffffff;
+   font-size: 16px;
+   margin-top: 5px;    
+}
+
+.foot4{
+    margin-left: 35px;
+}
+
+.foot4 > h1{
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ffffff;   
+}
+
+.foot4 > p{
+   color: #ffffff;
+   font-size: 16px;
+   margin-top: 5px;    
+}
